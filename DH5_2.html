@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box Model – Complete Practice Lab</title>
+
+    <style>
+        /* ================= GLOBAL STYLES ================= */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2f7, #dbe7f3);
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #34495e;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* ================= SECTION CARD ================= */
+        .section {
+            background-color: #ffffff;
+            padding: 25px;
+            margin-bottom: 35px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        /* ================= COMMON BOX ================= */
+        .box {
+            width: 300px;
+            background-color: #f5f7fa;
+            border-radius: 10px;
+            transition: transform 0.2s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-3px);
+        }
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+
+        /* ================= TASK STYLES ================= */
+
+        .task1 {
+            border: 2px solid #3498db;
+            padding: 12px;
+            background-color: #eaf4ff;
+        }
+
+        .task2 {
+            border: 2px solid #9b59b6;
+            padding: 10px 30px;
+            background-color: #f4ecf7;
+        }
+
+        .task3 {
+            border: 2px solid #16a085;
+            margin: 20px 0;
+            padding: 12px;
+            background-color: #e8f8f5;
+        }
+
+        .task4 {
+            border: 2px solid #f39c12;
+            padding: 15px;
+            background-color: #fff6e5;
+        }
+
+        .task5 {
+            border: 4px solid #e67e22;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fdebd0;
+        }
+
+        .task6 {
+            border: 2px solid #27ae60;
+            padding: 12px;
+            background-color: #eafaf1;
+        }
+
+        .task7 {
+            border: 2px solid #2980b9;
+            padding: 12px;
+            margin-bottom: 20px;
+            background-color: #ebf5fb;
+        }
+
+        .task8 {
+            border: 2px solid #c0392b;
+            padding: 12px;
+            background-color: #fdecea;
+        }
+
+        .task9 {
+            border: 4px solid #8e44ad;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #f5eef8;
+        }
+
+        .task10 {
+            border: 2px solid #2c3e50;
+            padding: 15px;
+            background-color: #ecf0f1;
+        }
+
+        .task11 {
+            border: 2px solid #1abc9c;
+            padding: 0 25px;
+            background-color: #e8fdf8;
+        }
+
+        .task12 {
+            border: 2px solid #34495e;
+            padding: 18px;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+        }
+
+        .task12 h3 {
+            color: #2c3e50;
+            margin-top: 10px;
+        }
+
+        .task12 strong {
+            color: #e74c3c;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🎨 CSS Box Model – Complete Practice Lab</h1>
+<p style="text-align:center; color:#555;">
+    Practice <strong>padding, margin, border & box-sizing</strong> using clean and aesthetic UI
+</p>
+
+<!-- TASK 1 -->
+<div class="section">
+    <h2>Task 1: Basic Box Model</h2>
+    <div class="box task1">Simple text content</div>
+</div>
+
+<!-- TASK 2 -->
+<div class="section">
+    <h2>Task 2: Different Sides</h2>
+    <div class="box task2">Left & right spacing should be larger</div>
+</div>
+
+<!-- TASK 3 -->
+<div class="section">
+    <h2>Task 3: Vertical Spacing</h2>
+    <div class="box task3">Control vertical spacing</div>
+</div>
+
+<!-- TASK 4 -->
+<div class="section">
+    <h2>Task 4: Image Padding</h2>
+    <div class="box task4">
+        <img src="https://via.placeholder.com/300x150">
+        <p>Text should not touch border</p>
+    </div>
+</div>
+
+<!-- TASK 5 -->
+<div class="section">
+    <h2>Task 5: Box Sizing</h2>
+    <div class="box task5">Keep total width 300px</div>
+</div>
+
+<!-- TASK 6 -->
+<div class="section">
+    <h2>Task 6: Image Touching Border</h2>
+    <div class="box task6">
+        <img src="https://via.placeholder.com/300x150">
+        <p>Fix spacing using padding</p>
+    </div>
+</div>
+
+<!-- TASK 7 -->
+<div class="section">
+    <h2>Task 7: Separate Cards</h2>
+    <div class="box task7">Card One</div>
+    <div class="box task7">Card Two</div>
+</div>
+
+<!-- TASK 8 -->
+<div class="sect
